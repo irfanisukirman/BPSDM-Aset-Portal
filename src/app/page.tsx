@@ -44,6 +44,11 @@ const data: Category[] = [
         description: 'Laporan berkala berisi data dan analisis hasil pemantauan aset BPSDM Provinsi Jawa Barat.',
         url: 'https://s.id/JADWAL_MONITORING_ASET_BPSDM_PROVINSI_JAWA_BARAT',
       },
+      {
+        title: 'Laporan Denah BPSDM Provinsi Jawa Barat',
+        description: 'Denah dan tata letak fasilitas di lingkungan BPSDM Provinsi Jawa Barat.',
+        url: '#',
+      },
     ],
   },
 ];
