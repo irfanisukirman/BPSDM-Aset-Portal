@@ -42,7 +42,7 @@ const data: Category[] = [
       {
         title: 'Laporan Monitoring Aset',
         description: 'Laporan berkala berisi data dan analisis hasil pemantauan aset BPSDM Provinsi Jawa Barat.',
-        url: '#',
+        url: 'https://s.id/JADWAL_MONITORING_ASET_BPSDM_PROVINSI_JAWA_BARAT',
       },
     ],
   },
