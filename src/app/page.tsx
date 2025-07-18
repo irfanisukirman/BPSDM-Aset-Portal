@@ -40,28 +40,8 @@ const data: Category[] = [
     icon: LinkIcon,
     links: [
       {
-        title: 'Link Laporan Aset A',
-        description: 'Deskripsi untuk Laporan Aset A.',
-        url: '#',
-      },
-      {
-        title: 'Link Laporan Aset B',
-        description: 'Deskripsi untuk Laporan Aset B.',
-        url: '#',
-      },
-      {
-        title: 'Link Laporan Aset C',
-        description: 'Deskripsi untuk Laporan Aset C.',
-        url: '#',
-      },
-      {
-        title: 'Link Laporan Aset D',
-        description: 'Deskripsi untuk Laporan Aset D.',
-        url: '#',
-      },
-      {
-        title: 'Link Laporan Aset E',
-        description: 'Deskripsi untuk Laporan Aset E.',
+        title: 'Laporan Monitoring Aset',
+        description: 'Akses laporan terkini mengenai monitoring aset. Dokumen ini berisi data dan analisis pemantauan aset BPSDM untuk pengambilan keputusan strategis.',
         url: '#',
       },
     ],
