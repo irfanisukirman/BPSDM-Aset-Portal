@@ -41,7 +41,7 @@ const data: Category[] = [
     links: [
       {
         title: 'Laporan Monitoring Aset',
-        description: 'Akses laporan terkini mengenai monitoring aset. Dokumen ini berisi data dan analisis pemantauan aset BPSDM untuk pengambilan keputusan strategis.',
+        description: 'Laporan berkala berisi data dan analisis hasil pemantauan aset BPSDM Provinsi Jawa Barat.',
         url: '#',
       },
     ],
