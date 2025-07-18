@@ -3,8 +3,9 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'BPSDM Asset Portal',
-  description: 'Portal Data Links for Divisi Aset BPSDM Provinsi Jawa Barat',
+  title: 'Pusat Sumber Daya BPSDM',
+  description:
+    'Pusat sumber daya dan tautan terpadu untuk Divisi Aset BPSDM Provinsi Jawa Barat',
 };
 
 export default function RootLayout({

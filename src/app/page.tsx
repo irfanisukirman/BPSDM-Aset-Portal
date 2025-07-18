@@ -150,7 +150,7 @@ export default function Home() {
       <main className="flex-grow container mx-auto px-4 py-8 md:py-16">
         <header className="text-center mb-12">
           <h1 className="font-headline text-4xl font-bold text-primary md:text-5xl">
-            BPSDM Asset Portal
+            Pusat Sumber Daya BPSDM
           </h1>
           <p className="mt-2 text-lg text-muted-foreground">
             Divisi Aset BPSDM Provinsi Jawa Barat
