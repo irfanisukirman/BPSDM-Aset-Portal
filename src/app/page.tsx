@@ -3,12 +3,9 @@
 import { useState, useMemo } from 'react';
 import type { LucideIcon } from 'lucide-react';
 import {
-  AppWindow,
   ExternalLink,
-  Landmark,
+  Link as LinkIcon,
   Search,
-  Users,
-  Wallet,
 } from 'lucide-react';
 
 import {
@@ -39,76 +36,32 @@ type Category = {
 
 const data: Category[] = [
   {
-    name: 'Laporan Aset',
-    icon: Landmark,
+    name: 'Informasi Tautan',
+    icon: LinkIcon,
     links: [
       {
-        title: 'Laporan Aset Tahunan 2023',
-        description: 'Laporan lengkap mengenai aset BPSDM Jabar tahun 2023.',
+        title: 'Link Laporan Aset A',
+        description: 'Deskripsi untuk Laporan Aset A.',
         url: '#',
       },
       {
-        title: 'Daftar Inventaris Barang',
-        description: 'Rincian inventaris barang per unit kerja.',
+        title: 'Link Laporan Aset B',
+        description: 'Deskripsi untuk Laporan Aset B.',
         url: '#',
       },
       {
-        title: 'Status Pemeliharaan Aset',
-        description:
-          'Dashboard status pemeliharaan aset bergerak dan tidak bergerak.',
-        url: '#',
-      },
-    ],
-  },
-  {
-    name: 'Data Kepegawaian',
-    icon: Users,
-    links: [
-      {
-        title: 'Database Pegawai',
-        description: 'Akses ke database pusat data pegawai BPSDM.',
+        title: 'Link Laporan Aset C',
+        description: 'Deskripsi untuk Laporan Aset C.',
         url: '#',
       },
       {
-        title: 'Laporan Absensi',
-        description: 'Rekapitulasi absensi pegawai bulanan.',
-        url: '#',
-      },
-    ],
-  },
-  {
-    name: 'Dokumen Anggaran',
-    icon: Wallet,
-    links: [
-      {
-        title: 'Rencana Kerja & Anggaran (RKA) 2024',
-        description: 'Dokumen RKA untuk tahun anggaran berjalan.',
+        title: 'Link Laporan Aset D',
+        description: 'Deskripsi untuk Laporan Aset D.',
         url: '#',
       },
       {
-        title: 'Laporan Realisasi Anggaran',
-        description: 'Laporan realisasi serapan anggaran per triwulan.',
-        url: '#',
-      },
-      {
-        title: 'Standar Biaya Masukan',
-        description: 'Dokumen acuan standar biaya.',
-        url: '#',
-      },
-    ],
-  },
-  {
-    name: 'Aplikasi Pendukung',
-    icon: AppWindow,
-    links: [
-      {
-        title: 'Sistem Informasi Manajemen Aset (SIMA)',
-        description: 'Aplikasi utama untuk pengelolaan aset.',
-        url: '#',
-      },
-      {
-        title: 'E-Arsip',
-        description: 'Sistem kearsipan digital untuk dokumen penting.',
+        title: 'Link Laporan Aset E',
+        description: 'Deskripsi untuk Laporan Aset E.',
         url: '#',
       },
     ],
