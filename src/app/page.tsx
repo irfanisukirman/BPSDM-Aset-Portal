@@ -127,8 +127,8 @@ export default function Home() {
                       {category.name}
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="px-6 pb-6">
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+                  <AccordionContent>
+                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 px-6 pb-6 pt-2">
                       {category.links.map((link) => (
                         <a
                           key={link.title}
