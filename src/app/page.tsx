@@ -47,7 +47,7 @@ const data: Category[] = [
       {
         title: 'Laporan Denah BPSDM Provinsi Jawa Barat',
         description: 'Denah dan tata letak fasilitas di lingkungan BPSDM Provinsi Jawa Barat.',
-        url: '#',
+        url: 'https://docs.google.com/spreadsheets/d/1Gs4zNJih6NW2OqZP8XTVH8nDnCZjxKx3KtfqFP-RS6I/edit?gid=1723776320#gid=1723776320',
       },
     ],
   },
