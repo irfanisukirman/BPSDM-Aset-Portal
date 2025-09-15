@@ -115,7 +115,7 @@ export default function Home() {
                 <AccordionItem
                   key={category.name}
                   value={category.name}
-                  className="rounded-lg border-none bg-card shadow-sm overflow-hidden"
+                  className="rounded-lg border-none bg-muted shadow-sm overflow-hidden"
                 >
                   <AccordionTrigger className="px-6 py-4 text-lg font-semibold hover:no-underline [&[data-state=open]>svg]:text-accent">
                     <div className="flex items-center gap-3">
@@ -124,7 +124,7 @@ export default function Home() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent className="overflow-hidden">
-                    <div className="grid grid-cols-1 gap-4 px-6 pb-6 pt-2 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-4 px-6 pb-2 pt-0 md:grid-cols-2 lg:grid-cols-3">
                       {category.links.map((link) => (
                         <a
                           key={link.title}
@@ -133,7 +133,7 @@ export default function Home() {
                           rel="noopener noreferrer"
                           className="group block"
                         >
-                          <Card className="h-full transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-accent hover:shadow-lg">
+                          <Card className="h-full transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-accent hover:shadow-lg bg-card">
                             <CardHeader className="flex flex-row items-start justify-between space-y-0 pb-2">
                               <CardTitle className="pr-4 text-base font-medium">
                                 {link.title}
