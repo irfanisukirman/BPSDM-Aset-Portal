@@ -96,7 +96,7 @@ export default function Home() {
             Pusat Sumber Daya BPSDM
           </h1>
           <p className="mt-2 text-lg text-muted-foreground">
-            Divisi Aset BPSDM Provinsi Jawa Barat
+            Tim Aset BPSDM Provinsi Jawa Barat
           </p>
         </header>
 
@@ -132,7 +132,7 @@ export default function Home() {
                       {category.name}
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="overflow-hidden">
+                  <AccordionContent>
                     <div className="grid grid-cols-1 gap-4 p-6 pt-2 md:grid-cols-2 lg:grid-cols-3">
                       {category.links.map((link) => (
                         <a
@@ -174,7 +174,7 @@ export default function Home() {
 
       <footer className="border-t py-6 text-center">
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Divisi Aset BPSDM Provinsi Jawa
+          &copy; {new Date().getFullYear()} Tim Aset BPSDM Provinsi Jawa
           Barat. All rights reserved.
         </p>
       </footer>

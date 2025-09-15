@@ -5,7 +5,7 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'Pusat Sumber Daya BPSDM',
   description:
-    'Pusat sumber daya dan tautan terpadu untuk Divisi Aset BPSDM Provinsi Jawa Barat',
+    'Pusat sumber daya dan tautan terpadu untuk Tim Aset BPSDM Provinsi Jawa Barat',
 };
 
 export default function RootLayout({
