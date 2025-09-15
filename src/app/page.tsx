@@ -115,7 +115,7 @@ export default function Home() {
                 <AccordionItem
                   key={category.name}
                   value={category.name}
-                  className="rounded-lg border-none bg-muted shadow-sm overflow-hidden"
+                  className="rounded-lg border-none bg-muted shadow-sm"
                 >
                   <AccordionTrigger className="px-6 py-4 text-lg font-semibold hover:no-underline [&[data-state=open]>svg]:text-accent">
                     <div className="flex items-center gap-3">
@@ -123,8 +123,8 @@ export default function Home() {
                       {category.name}
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className="overflow-hidden">
-                    <div className="grid grid-cols-1 gap-4 px-6 pb-2 pt-0 md:grid-cols-2 lg:grid-cols-3">
+                  <AccordionContent>
+                    <div className="grid grid-cols-1 gap-4 px-6 pb-5 pt-1 md:grid-cols-2 lg:grid-cols-3">
                       {category.links.map((link) => (
                         <a
                           key={link.title}
