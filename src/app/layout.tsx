@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Pusat Sumber Daya BPSDM',
+  title: 'Pusat Sumber Daya',
   description:
     'Pusat sumber daya dan tautan terpadu untuk Tim Aset BPSDM Provinsi Jawa Barat',
 };

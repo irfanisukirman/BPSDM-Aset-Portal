@@ -1,12 +1,8 @@
 "use client";
 
-import { useState, useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { LucideIcon } from 'lucide-react';
-import {
-  ExternalLink,
-  Link as LinkIcon,
-  Search,
-} from 'lucide-react';
+import { ExternalLink, Link as LinkIcon, Search } from 'lucide-react';
 
 import {
   Accordion,
@@ -14,12 +10,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 
 type LinkItem = {
@@ -93,7 +84,7 @@ export default function Home() {
       <main className="flex-grow container mx-auto px-4 py-8 md:py-16">
         <header className="text-center mb-12">
           <h1 className="font-headline text-4xl font-bold text-primary md:text-5xl">
-            Pusat Sumber Daya BPSDM
+            Pusat Sumber Daya
           </h1>
           <p className="mt-2 text-lg text-muted-foreground">
             Tim Aset BPSDM Provinsi Jawa Barat
@@ -124,7 +115,7 @@ export default function Home() {
                 <AccordionItem
                   key={category.name}
                   value={category.name}
-                  className="rounded-lg border-none bg-card shadow-sm"
+                  className="rounded-lg border-none bg-card shadow-sm overflow-hidden"
                 >
                   <AccordionTrigger className="px-6 py-4 text-lg font-semibold hover:no-underline [&[data-state=open]>svg]:text-accent">
                     <div className="flex items-center gap-3">
@@ -133,7 +124,7 @@ export default function Home() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="grid grid-cols-1 gap-4 p-6 pt-2 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-4 px-6 pb-6 pt-2 md:grid-cols-2 lg:grid-cols-3">
                       {category.links.map((link) => (
                         <a
                           key={link.title}
