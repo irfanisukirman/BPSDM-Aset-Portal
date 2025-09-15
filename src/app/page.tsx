@@ -36,14 +36,14 @@ const data: Category[] = [
         url: 'https://docs.google.com/spreadsheets/d/1mTaTsCgm0ZsHsnfUGBvesglX8JKMryqGN5ObJq5qDZk/edit?hl=id&gid=0#gid=0',
       },
       {
-        title: 'Laporan Denah BPSDM Provinsi Jawa Barat',
-        description: 'Denah dan tata letak fasilitas di lingkungan BPSDM Provinsi Jawa Barat.',
-        url: 'https://docs.google.com/spreadsheets/d/1Gs4zNJih6NW2OqZP8XTVH8nDnCZjxKx3KtfqFP-RS6I/edit?gid=1723776320#gid=1723776320',
-      },
-      {
         title: 'Panduan Penggunaan SiJagung',
         description: 'Dokumentasi dan panduan langkah demi langkah untuk menggunakan SiJagung.',
         url: 'https://s.id/how_to_sijagung',
+      },
+      {
+        title: 'Laporan Denah BPSDM Provinsi Jawa Barat',
+        description: 'Denah dan tata letak fasilitas di lingkungan BPSDM Provinsi Jawa Barat.',
+        url: 'https://docs.google.com/spreadsheets/d/1Gs4zNJih6NW2OqZP8XTVH8nDnCZjxKx3KtfqFP-RS6I/edit?gid=1723776320#gid=1723776320',
       },
     ],
   },
@@ -123,7 +123,7 @@ export default function Home() {
                       {category.name}
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent>
+                  <AccordionContent className="overflow-hidden">
                     <div className="grid grid-cols-1 gap-4 px-6 pb-6 pt-2 md:grid-cols-2 lg:grid-cols-3">
                       {category.links.map((link) => (
                         <a
