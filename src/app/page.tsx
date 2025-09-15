@@ -40,8 +40,8 @@ const data: Category[] = [
     icon: LinkIcon,
     links: [
       {
-        title: 'Laporan Monitoring Aset',
-        description: 'Laporan berkala berisi data dan analisis hasil pemantauan aset BPSDM Provinsi Jawa Barat.',
+        title: 'SiJagung BPSDM Provinsi Jawa Barat',
+        description: 'SiJagung adalah Sistem Digital Penjadwalan Pemeliharaan Rutin Gedung.',
         url: 'https://docs.google.com/spreadsheets/d/1mTaTsCgm0ZsHsnfUGBvesglX8JKMryqGN5ObJq5qDZk/edit?hl=id&gid=0#gid=0',
       },
       {
@@ -132,7 +132,7 @@ export default function Home() {
                       {category.name}
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent>
+                  <AccordionContent className="overflow-hidden">
                     <div className="grid grid-cols-1 gap-4 p-6 pt-2 md:grid-cols-2 lg:grid-cols-3">
                       {category.links.map((link) => (
                         <a
