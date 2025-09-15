@@ -50,8 +50,8 @@ const data: Category[] = [
         url: 'https://docs.google.com/spreadsheets/d/1Gs4zNJih6NW2OqZP8XTVH8nDnCZjxKx3KtfqFP-RS6I/edit?gid=1723776320#gid=1723776320',
       },
       {
-        title: 'Panduan Penggunaan Laporan Monitoring Aset',
-        description: 'Dokumentasi dan panduan langkah demi langkah untuk menggunakan laporan monitoring aset.',
+        title: 'Panduan Penggunaan SiJagung',
+        description: 'Dokumentasi dan panduan langkah demi langkah untuk menggunakan SiJagung.',
         url: 'https://s.id/how_to_sijagung',
       },
     ],
