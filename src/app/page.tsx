@@ -42,7 +42,7 @@ const data: Category[] = [
       {
         title: 'Laporan Monitoring Aset',
         description: 'Laporan berkala berisi data dan analisis hasil pemantauan aset BPSDM Provinsi Jawa Barat.',
-        url: 'https://s.id/JADWAL_MONITORING_ASET_BPSDM_PROVINSI_JAWA_BARAT',
+        url: 'https://docs.google.com/spreadsheets/d/1mTaTsCgm0ZsHsnfUGBvesglX8JKMryqGN5ObJq5qDZk/edit?hl=id&gid=0#gid=0',
       },
       {
         title: 'Laporan Denah BPSDM Provinsi Jawa Barat',
@@ -128,7 +128,7 @@ export default function Home() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 px-6 pb-6 pt-2">
+                    <div className="grid grid-cols-1 gap-4 p-6 pt-2 md:grid-cols-2 lg:grid-cols-3">
                       {category.links.map((link) => (
                         <a
                           key={link.title}
