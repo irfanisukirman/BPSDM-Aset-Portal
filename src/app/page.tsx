@@ -135,13 +135,13 @@ export default function Home() {
                         >
                           <Card className="h-full transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-accent hover:shadow-lg bg-card">
                             <CardHeader className="flex flex-row items-start justify-between space-y-0 pb-2">
-                              <CardTitle className="pr-4 text-base font-medium">
+                              <CardTitle className="pr-4 text-base font-medium text-black">
                                 {link.title}
                               </CardTitle>
                               <ExternalLink className="h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-accent" />
                             </CardHeader>
                             <CardContent>
-                              <p className="text-sm text-muted-foreground">
+                              <p className="text-sm text-gray-500">
                                 {link.description}
                               </p>
                             </CardContent>
